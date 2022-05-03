@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Links</h1>
+    <hr>
+    <h2>Usando Links externos</h2>
+    <p>Você pode acessar meu Linkedin <a href="https://www.linkedin.com/in/thiago-ssoares/" rel="external" target="_blank" >através do link</a></p>
+    <!--rel="external" semantica: diz ao mecanismo de busca que não faz parte do site
+    target="_blank" abre nova aba "em branco"-->
+    <p>E acessar meu GitHub <a href="https://github.com/tsoares-dev" target="_blank" rel="external">por aqui</a></p>
+    <h2>Links internos</h2>
+    <p>Esta é a minha primeira página do site. Acesse também minha <a href="pag002.html" rel="next" target="self">segunda página.</a></p> <!-- rel="next" próxima página (semantica)
+    target="self" abrir na mesma aba-->
+    <p> Ou nossa nossa nova página de <a href="./noticias/pag003.html" target="_self">Noticias</a></p>
+    <h2>Links para Download</h2>
+    <ul>
+        <li>Clique para baixar meu livro <a href="./livro/meulivro.pdf">em pdf</a></li>
+        <li>Ou se preferir baixe o livro <a href="./livro/meulivro.zip">compactado</a></li>
+    </ul>
+</body>
+</html>
